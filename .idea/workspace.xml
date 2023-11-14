@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2976219c-551a-4b22-bb80-c5a512bce60d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/YouTubePopularity/Canciones/Album.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/YouTubePopularity/Canciones/Artista.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/YouTubePopularity/Canciones/Cancion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/YouTubePopularity/Canciones/EnAuge.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/YouTubePopularity/Canciones/EnTendencia.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/YouTubePopularity/Canciones/Normal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/YouTubePopularity/Canciones/StateCancion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/YouTubePopularity/Icono.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/YouTubePopularity/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/YouTubePopularity/reproductorCancion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/YouTubePopularityTest/CancionesTest/AlbumTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/YouTubePopularityTest/CancionesTest/ArtistaTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/YouTubePopularityTest/CancionesTest/CancionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/YouTubePopularityTest/CancionesTest/EnAugeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/YouTubePopularityTest/CancionesTest/EnTendenciaTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/YouTubePopularityTest/CancionesTest/NormalTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/YouTubePopularityTest/CancionesTest/StateCancionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/YouTubePopularityTest/IconoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/YouTubePopularityTest/MainTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/YouTubePopularityTest/reproductorCancion.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 1
+}]]></component>
+  <component name="ProjectId" id="2YAPWYPWJvoLB0sAw9LiCYkhMCv" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "/Users/gonzaloalfredosentana/Documents/Coding/Java/ArgPrograma/Clase-4/Testing/src/test/java",
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/java" />
+      <recent name="$PROJECT_DIR$/src/main/java" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.MainTest.theScientistReaches1001views">
+    <configuration name="MainTest.theScientistReaches1001views" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Testing" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="YouTubePopularityTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="YouTubePopularityTest" />
+      <option name="MAIN_CLASS_NAME" value="YouTubePopularityTest.MainTest" />
+      <option name="METHOD_NAME" value="theScientistReaches1001views" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainTest.theScientistReleases" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Testing" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="YouTubePopularityTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="YouTubePopularityTest" />
+      <option name="MAIN_CLASS_NAME" value="YouTubePopularityTest.MainTest" />
+      <option name="METHOD_NAME" value="theScientistReleases" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.MainTest.theScientistReaches1001views" />
+        <item itemvalue="JUnit.MainTest.theScientistReleases" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2976219c-551a-4b22-bb80-c5a512bce60d" name="Changes" comment="" />
+      <created>1699965444149</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1699965444149</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
