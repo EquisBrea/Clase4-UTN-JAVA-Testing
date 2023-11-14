@@ -1,6 +1,7 @@
 package YouTubePopularity.Canciones;
 
 import YouTubePopularity.Icono;
+import YouTubePopularity.Main;
 
 public class EnTendencia extends Cancion implements StateCancion {
     private String iconoString;
@@ -13,7 +14,10 @@ public class EnTendencia extends Cancion implements StateCancion {
 
     @Override
     public void reproducir(String prefix, Cancion cancion) {
-        if (noEsTendencia(cancion)) {
+        if (estaEnAuge(cancion)) {
+            cancion.setStateCancion(new EnAuge());
+            cancion.stateCancion.reproducir(prefix, cancion);
+        } else if (esNormal(cancion)) {
             cancion.setStateCancion(new Normal());
             cancion.stateCancion.reproducir(prefix, cancion);
         } else {
@@ -21,10 +25,12 @@ public class EnTendencia extends Cancion implements StateCancion {
         }
     }
 
-    private boolean noEsTendencia(Cancion cancion) {
-        return (cancion.getDislikes() > 5000 || cancion.getTiempoDesdeUltimaReproduccion()>24);
+    private boolean esNormal(Cancion cancion) {
+        return ((cancion.getReproducciones()<=1000)|| cancion.dislikes>5000||cancion.getTiempoDesdeUltimaReproduccion()>24);
     }
-
+    private boolean estaEnAuge(Cancion cancion){
+        return ((cancion.getReproducciones() > 1000 && cancion.getReproducciones()<= Main.topeReproduccionesEnAuge) && (cancion.getDislikes() <= Main.topeDislikesEnAuge) && (cancion.getTiempoDesdeUltimaReproduccion() < 24) );
+    }
     @Override
     public void cambiarStateCancion(Cancion cancion) {
 

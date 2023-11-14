@@ -4,34 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2976219c-551a-4b22-bb80-c5a512bce60d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/YouTubePopularity/Canciones/Album.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/YouTubePopularity/Canciones/Artista.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/YouTubePopularity/Canciones/Cancion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/YouTubePopularity/Canciones/EnAuge.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/YouTubePopularity/Canciones/EnTendencia.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/YouTubePopularity/Canciones/Normal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/YouTubePopularity/Canciones/StateCancion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/YouTubePopularity/Icono.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/YouTubePopularity/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/YouTubePopularity/reproductorCancion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/YouTubePopularityTest/CancionesTest/AlbumTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/YouTubePopularityTest/CancionesTest/ArtistaTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/YouTubePopularityTest/CancionesTest/CancionTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/YouTubePopularityTest/CancionesTest/EnAugeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/YouTubePopularityTest/CancionesTest/EnTendenciaTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/YouTubePopularityTest/CancionesTest/NormalTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/YouTubePopularityTest/CancionesTest/StateCancionTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/YouTubePopularityTest/IconoTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/YouTubePopularityTest/MainTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/YouTubePopularityTest/reproductorCancion.java" afterDir="false" />
+    <list default="true" id="2976219c-551a-4b22-bb80-c5a512bce60d" name="Changes" comment="Commit inicial con bastante para agregar... pero en camino">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/YouTubePopularity/Canciones/EnAuge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/YouTubePopularity/Canciones/EnAuge.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/YouTubePopularity/Canciones/EnTendencia.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/YouTubePopularity/Canciones/EnTendencia.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/YouTubePopularity/Canciones/Normal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/YouTubePopularity/Canciones/Normal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/YouTubePopularity/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/YouTubePopularity/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/YouTubePopularityTest/CancionesTest/CancionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/YouTubePopularityTest/CancionesTest/CancionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/YouTubePopularityTest/MainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/YouTubePopularityTest/MainTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +46,23 @@
       <recent name="$PROJECT_DIR$/src/main/java" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MainTest.theScientistReaches1001views">
+  <component name="RunManager">
+    <configuration name="MainTest.theScientistIsDislikedMoreThan5000Times" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Testing" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="YouTubePopularityTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="YouTubePopularityTest" />
+      <option name="MAIN_CLASS_NAME" value="YouTubePopularityTest.MainTest" />
+      <option name="METHOD_NAME" value="theScientistIsDislikedMoreThan5000Times" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MainTest.theScientistReaches1001views" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Testing" />
       <extension name="coverage">
@@ -78,6 +74,38 @@
       <option name="PACKAGE_NAME" value="YouTubePopularityTest" />
       <option name="MAIN_CLASS_NAME" value="YouTubePopularityTest.MainTest" />
       <option name="METHOD_NAME" value="theScientistReaches1001views" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainTest.theScientistReaches50000ViewsAnd20000Likes" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Testing" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="YouTubePopularityTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="YouTubePopularityTest" />
+      <option name="MAIN_CLASS_NAME" value="YouTubePopularityTest.MainTest" />
+      <option name="METHOD_NAME" value="theScientistReaches50000ViewsAnd20000Likes" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainTest.theScientistReaches50001ViewsAnd20001Likes" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Testing" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="YouTubePopularityTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="YouTubePopularityTest" />
+      <option name="MAIN_CLASS_NAME" value="YouTubePopularityTest.MainTest" />
+      <option name="METHOD_NAME" value="theScientistReaches50001ViewsAnd20001Likes" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -101,6 +129,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MainTest.theScientistReaches50000ViewsAnd20000Likes" />
+        <item itemvalue="JUnit.MainTest.theScientistReaches50001ViewsAnd20001Likes" />
+        <item itemvalue="JUnit.MainTest.theScientistIsDislikedMoreThan5000Times" />
         <item itemvalue="JUnit.MainTest.theScientistReaches1001views" />
         <item itemvalue="JUnit.MainTest.theScientistReleases" />
       </list>
@@ -115,7 +146,20 @@
       <option name="presentableId" value="Default" />
       <updated>1699965444149</updated>
     </task>
+    <task id="LOCAL-00001" summary="Commit inicial con bastante para agregar... pero en camino">
+      <option name="closed" value="true" />
+      <created>1699966833318</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1699966833318</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Commit inicial con bastante para agregar... pero en camino" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit inicial con bastante para agregar... pero en camino" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

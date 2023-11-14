@@ -23,7 +23,6 @@ public class CancionTest {
 
 
     public Icono getIcono() {
-        //TODO
         return null;
     }
 
